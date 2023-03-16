@@ -4,9 +4,19 @@
   "description": "",
   "main": "build/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx tsc --project tsconfig.build.json",
+    "add": "rushx add"
+  },
+  "dependencies": {
+    "mongoose": "^6.8.2",
+    "@needtuto/types": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "tslib": "^2.4.1",
+    "typescript": "^4.9.4"
   },
   "keywords": [],
-  "author": "",
+  "author": "Edgar Matos",
   "license": "ISC"
 }

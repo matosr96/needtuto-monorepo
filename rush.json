@@ -26,11 +26,6 @@
       "reviewCategory": "apps"
     },
     {
-      "packageName": "landing",
-      "projectFolder": "apps/landing",
-      "reviewCategory": "apps"
-    },
-    {
       "packageName": "@needtuto/types",
       "projectFolder": "packages/types",
       "reviewCategory": "packages"
